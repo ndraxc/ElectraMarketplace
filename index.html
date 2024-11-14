@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Electra Bali</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">Electra</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#">KATEGORI</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">CCTV</a></li>
+              <li><a href="#">SENSOR</a></li>
+              <li><a href="#">AKSESORIES</a></li>
+              <li><a href="#">KABEL</a></li>
+              <li class="more">
+                <span><a href="#">LAINNYA</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">INSTALASI CCTV WIRELESS</a></li>
+                  <li><a href="#">INSTALASI CCTV CABLE</a></li>
+                  <li><a href="#">INSTALASI LED </a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">MERK</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="index.html">SEMUA</a></li>
+              <li><a href="hikvision.html">HIKVISION</a></li>
+              <li><a href="hilook.html">HILOOK</a></li>
+              <li><a href="dahua.html">DAHUA</a></li>
+              <li><a href="imou.html">IMOU</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input class="form-control mr-sm-2" type="search" placeholder="Cari product..." id="search-bar" aria-label="Search" oninput="debouncedSearch()">
+        </div>
+      </div>
+    </div>
+  </nav>
+<br>
+<br>
+<br>
+  <div class="container my-5">
+    <div class="row" id="product-list">
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">C6N 2MP</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">C6N 4MP</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">H8C 2MP</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 4">
+          <div class="card-body">
+            <h5 class="card-title">H8C 4MP</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+  
+      
+      <!-- Additional Products (sequentially added) -->
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 5">
+          <div class="card-body">
+            <h5 class="card-title">THC-B120-PC</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 6">
+          <div class="card-body">
+            <h5 class="card-title">THC-T120-PC</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 7">
+          <div class="card-body">
+            <h5 class="card-title">IMOU RANGER A1</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 8">
+          <div class="card-body">
+            <h5 class="card-title">IMOU CRUISER SE+</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 9">
+          <div class="card-body">
+            <h5 class="card-title">DH-HAC-B1A21P</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 10">
+          <div class="card-body">
+            <h5 class="card-title">DH-HAC-T1A21P</h5>
+            <a href="#" class="btn btn-success">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Message when no products match the search -->
+    <div id="no-results-message" class="alert alert-warning" style="display: none;">
+      Maaf barang yang dicari belum tersedia.
+    </div>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
